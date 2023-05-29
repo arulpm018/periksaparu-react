@@ -1,0 +1,256 @@
+body{
+    font-family: 'Inter';
+}
+
+.containers{
+    display:flex;
+
+}
+.sidebar{
+    border-right:0.6px solid #eee9fd ;
+    background-color:  rgba(246, 234, 255, 0.04);
+    width:250px;
+    display:flex;
+    flex-direction: column;
+}
+
+.logo-wrapper{
+    display:flex;
+    margin-bottom:20px;
+}
+
+.logo-wrapper h3{
+    margin-top:10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo-wrapper img{
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    width:50px;
+}
+
+.sidebar-wrapper{
+    margin-bottom:10px;
+    margin-left:10px;
+    display:flex;
+    font-weight: bold;
+}
+
+.sidebar-wrapper:hover{
+    background-color:#ededed ;
+}
+
+.sidebar-wrapper img{
+    margin-right:7px;
+    margin-bottom:5px;
+    margin-top:10px;
+    width:30px;
+    height:30px;
+}
+
+.sidebar-wrapper a{
+    margin-top:14px;
+    display: block;
+    text-decoration: none;
+    color:black;
+}
+
+
+.home-wrapper{
+    flex: 1;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.top-wrapper{
+    margin-top:20px;
+    border-bottom:0.6px solid #eee9fd ;
+    padding-bottom:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-wrapper input{
+    margin-left:50px;
+    padding-left:20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 4px 2px #eee9fd;
+    width:500px;
+    height:40px;
+}
+
+.top-wrapper button{
+    color:red;
+    margin-right:30px;
+    padding:15px 60px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 4px 4px 4px #eee9fd;
+    background-color: white;
+}
+
+.content-wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.report-wrapper{
+    margin:20px 50px 20px 50px;
+    border:0.6px solid rgba(246, 234, 255, 1);
+    border-radius:10px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.04);
+}
+
+.report-wrapper h2{
+    padding-top:10px;
+    font-weight: bold;
+    padding-left:30px;
+    padding-bottom:10px;
+    border-bottom:0.6px solid #eee9fd;
+}
+
+.reports{
+    margin-top:20px;
+    margin-left:30px;
+    padding-left:15px;
+    flex-wrap:wrap;
+    display:flex;
+    gap: 50px;
+    margin-bottom:20px;
+}
+
+
+.report{
+    cursor: pointer;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.user-wrapper{
+    display:flex;
+    padding:2.5px 180px 2.5px 20px;
+    background: rgba(246, 234, 255, 0.4);
+    border-radius: 8px;
+    margin-bottom:10px;
+}
+
+.user-wrapper p{
+    font-weight: bold;
+    margin-top:5px;
+    text-align: center;
+}
+
+.user-wrapper img{
+    margin-right:10px;
+    margin-top:3px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.result{
+    cursor: pointer;
+    margin-bottom:10px;
+    padding-right:20px;
+    padding-left:20px;
+    border:0.6px solid rgba(246, 234, 255, 0.7);
+    border-radius:10px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.04);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+.result h4 {
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+.result h3{
+    margin:10px 0;
+    padding:10px 20px;
+    width:300px;
+    border:1px solid rgba(246, 234, 255, 1);
+}
+
+.note-wrapper{
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+}
+
+
+
+
+.predict{
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color:rgba(246, 234, 255, 0.4);
+}
+
+
+.modal{
+    position:absolute;
+
+}
+
+.modal img{
+    width:900px;
+    height:900px;
+}
+
+
+.modal.show{
+    display:flex;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .result textarea{
+    border:1px solid #cac5cc;
+    height:80px;
+    margin-bottom:10px;
+  }
+  .result button {
+    margin-bottom:10px;
+    width:80px;
+    padding:8px;
+    background-color: white;
+    border-radius:5px;
+    box-shadow: 0px 4px 2px #eee9fd;
+    border:0.6px solid #eee9fd;
+  }
+
+  .result h3{
+    margin-bottom:10px;
+
+  }
+
+    form {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+  

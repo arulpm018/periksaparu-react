@@ -1,0 +1,151 @@
+body{
+    font-family: 'Inter';
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.logo-navbar{
+    margin-top:10px;
+    margin-left:50px;
+    display:flex;
+}
+
+.logo-navbar h3{
+    margin-top:10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo-navbar img{
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    width:50px;
+}
+
+.menu-navbar{
+    margin-top:20px;
+    margin-right:50px;
+}
+
+.menu-navbar a{
+    display:inline-block;
+    color:black;
+    margin-left:10px;
+    padding:15px 60px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 4px 4px 4px #eee9fd;
+    background-color: white;
+}
+
+.login-container{
+    margin-bottom:120px;
+    padding-top:50px;
+    padding-bottom:50px;
+    width:50%;
+    margin-top:50px;
+    border:0.6px solid #eee9fd;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.04);
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h1{
+    margin-top:10px;
+    font-size: 24px ;
+    font-weight: bold;
+}
+
+.login-container img{
+    box-shadow: 4px 4px 4px #eee9fd;
+    border-radius:50%;
+    width:100px;
+}
+
+.login-container h1{
+    margin-bottom:40px;
+}
+
+
+.form-wrapper input{
+    margin-bottom:10px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 4px 2px #eee9fd;
+    width:500px;
+    height:40px;
+}
+
+.form-wrapper button{
+    margin-top:20px;
+    width:500px;
+    display:block;
+    padding:15px 0px;
+    border:none;
+    border-radius:5px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.04);
+    background-color: #eee9fd;
+}
+
+
+select {
+    /* Reset Select */
+    outline: 0;
+    border: 0;
+    /* Personalize */
+    flex: 1;
+    padding: 0 1em;
+    background-color: white;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Custom Select wrapper */
+  .selects {
+    margin-bottom:30px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.04);
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+  }
+  /* Arrow */
+  .selects::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #eee9fd;
+    transition: .25s all ease;
+    pointer-events: none;
+  }
+  /* Transition */
+  .selects:hover::after {
+    color: white;
+  }
+
+.msg-reg{
+    text-align: center;
+}
